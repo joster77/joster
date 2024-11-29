@@ -62,7 +62,7 @@ def Formulario():
         combo=ttk.Combobox(groupBox,values=["Masculino","Femenino"],textvariable=seleccionSexo,width=11,font=("arial",12))
         combo.grid(row=3,column=1)
 
-        Button(groupBox,text="Guardar",width=10,color="green", command=guardarRegistros).grid(row=4,column=0)
+        Button(groupBox,text="Guardar",width=10, command=guardarRegistros).grid(row=4,column=0)
         Button(groupBox,text="Editar",width=10, command=modificarRegistros).grid(row=4,column=1)
         Button(groupBox,text="Eliminar",width=10, command=eliminarRegistros).grid(row=4,column=2)
 
