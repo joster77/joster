@@ -66,7 +66,7 @@ def Formulario():
         Button(groupBox,text="Editar",width=10, command=modificarRegistros).grid(row=4,column=1)
         Button(groupBox,text="Eliminar",width=10, command=eliminarRegistros).grid(row=4,column=2)
 
-        groupBox=LabelFrame(base, text="Lista del personal",padx=5,pady=5)
+        groupBox=LabelFrame(base, text="Lista de Clientes",padx=5,pady=5)
         groupBox.grid(row=0,column=1,padx=5,pady=5)
         #Crear un treeview
 
